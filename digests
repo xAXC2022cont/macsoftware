@@ -2,3 +2,16 @@ Tunnelblick 3.8.7a (build 5770, macOS 10.10+, Universal, notarized) released 202
 
 SHA1: c30e953a486dc372c3a3d8f81c9dd1954182c993 MD5: 3c3b55fce5738acdb75bebb957201dd6
 SHA256: bb5858619a58561d07d23df470b9548b82c1544cea9ffade30c4362dc8f3bd93
+
+
+MacPorts
+[liveuser@localhost Downloads]$ sha256sum MacPorts-2.7.2-10.14-Mojave.pkg
+d2e1ab88eb27a3e8335e061c056e3ffc95e0934b85e3f1d14eb6f8d44ba0ef29  MacPorts-2.7.2-10.14-Mojave.pkg
+[liveuser@localhost Downloads]$ sha256sum MacPorts-2.7.2-10.15-Catalina.pkg
+6a82d1de0fe2db046c82a388063841ff62d6f5616a9058cc7d720515b604b64f  MacPorts-2.7.2-10.15-Catalina.pkg
+[liveuser@localhost Downloads]$ sha256sum MacPorts-2.7.2-11-BigSur.pkg
+d2ddb4e7aaa554040ee4761786baeb7a49acf80c30c06b88a79e40ac4f8c5ff8  MacPorts-2.7.2-11-BigSur.pkg
+[liveuser@localhost Downloads]$ sha256sum MacPorts-2.7.2-12-Monterey.pkg
+9b9bc7bc552247f4d7dcb217eb5a3fc28f35e824d3769bb64e398f99d43777ea  MacPorts-2.7.2-12-Monterey.pkg
+[liveuser@localhost Downloads]$ sha256sum MacPorts-2.7.2.tar.bz2
+1c7ddb4ef819d3fdfcbb73a4ba44f7f6125cd0b764d663f097a7f834baac40f2  MacPorts-2.7.2.tar.bz2

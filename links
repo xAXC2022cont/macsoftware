@@ -2,6 +2,7 @@ Tunnelblick 3.8.7a (build 5770, macOS 10.10+, Universal, notarized) released 202
 https://tunnelblick.net/release/Tunnelblick_3.8.7a_build_5770.dmg
 https://tunnelblick.net/signatures/Tunnelblick_3.8.7a_build_5770.dmg.asc
 
+
 MacPorts
 https://github.com/macports/macports-base/releases/download/v2.7.2/MacPorts-2.7.2-10.14-Mojave.pkg
 https://github.com/macports/macports-base/releases/download/v2.7.2/MacPorts-2.7.2-10.14-Mojave.pkg.asc
@@ -16,3 +17,13 @@ https://github.com/macports/macports-base/releases/download/v2.7.2/MacPorts-2.7.
 https://github.com/macports/macports-base/releases/download/v2.7.2/MacPorts-2.7.2.tar.bz2
 https://github.com/macports/macports-base/releases/download/v2.7.2/MacPorts-2.7.2.tar.bz2.asc
 https://github.com/macports/macports-base/releases/download/v2.7.2/MacPorts-2.7.2.tar.bz2.sha256.sig
+
+
+Little Snitch 5.3.2 (Big Sur, Monterey)
+https://www.obdev.at/downloads/littlesnitch/LittleSnitch-5.3.2.dmg
+
+Little Snitch 4.6.1 (Catalina)
+https://www.obdev.at/downloads/littlesnitch/legacy/LittleSnitch-4.6.1.dmg
+
+Little Snitch 4.5.2 (Mojave)
+https://www.obdev.at/downloads/littlesnitch/legacy/LittleSnitch-4.5.2.dmg

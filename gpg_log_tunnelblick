@@ -1,0 +1,27 @@
+[liveuser@localhost Downloads]$ gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys 6BB9367E
+gpg: directory `/home/liveuser/.gnupg' created
+gpg: new configuration file `/home/liveuser/.gnupg/gpg.conf' created
+gpg: WARNING: options in `/home/liveuser/.gnupg/gpg.conf' are not yet active during this run
+gpg: keyring `/home/liveuser/.gnupg/secring.gpg' created
+gpg: keyring `/home/liveuser/.gnupg/pubring.gpg' created
+gpg: requesting key 6BB9367E from hkps server keyserver.ubuntu.com
+gpg: /home/liveuser/.gnupg/trustdb.gpg: trustdb created
+gpg: key 6BB9367E: public key "Tunnelblick Security <tunnelblicksecurity@protonmail.com>" imported
+gpg: no ultimately trusted keys found
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+[liveuser@localhost Downloads]$ gpg --verify Tunnelblick_3.8.7a_build_5770.dmg
+Tunnelblick_3.8.7a_build_5770.dmg      Tunnelblick_3.8.7a_build_5770.dmg.asc
+[liveuser@localhost Downloads]$ gpg --verify Tunnelblick_3.8.7a_build_5770.dmg.asc Tunnelblick_3.8.7a_build_5770.dmg
+gpg: Signature made Tue 30 Nov 2021 04:18:33 AM UTC using RSA key ID DC6FD12C
+gpg: Good signature from "Tunnelblick Security <tunnelblicksecurity@protonmail.com>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 76DF 975A 1C56 4277 4FB0  9868 FF5F D80E 6BB9 367E
+     Subkey fingerprint: B4D9 6F0D 6A58 E335 A0F4  923A 2FF3 A2B2 DC6F D12C
+[liveuser@localhost Downloads]$ gpg --import Tunnelblick
+Tunnelblick_3.8.7a_build_5770.dmg      Tunnelblick_3.8.7a_build_5770.dmg.asc  TunnelblickSecurityPublicKey.asc
+[liveuser@localhost Downloads]$ gpg --import TunnelblickSecurityPublicKey.asc 
+gpg: key 6BB9367E: "Tunnelblick Security <tunnelblicksecurity@protonmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1

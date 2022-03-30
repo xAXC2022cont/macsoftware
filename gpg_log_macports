@@ -1,0 +1,54 @@
+[liveuser@localhost Downloads]$ gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys B4AAE6CD
+gpg: requesting key B4AAE6CD from hkps server keyserver.ubuntu.com
+gpg: key B4AAE6CD: public key "Joshua Root <jmr@macports.org>" imported
+gpg: no ultimately trusted keys found
+gpg: Total number processed: 1
+gpg:               imported: 1
+[liveuser@localhost Downloads]$ gpg --verify MacPorts-2.7.2
+MacPorts-2.7.2-10.14-Mojave.pkg        MacPorts-2.7.2-11-BigSur.pkg           MacPorts-2.7.2.tar.bz2
+MacPorts-2.7.2-10.14-Mojave.pkg.asc    MacPorts-2.7.2-11-BigSur.pkg.asc       MacPorts-2.7.2.tar.bz2.asc
+MacPorts-2.7.2-10.15-Catalina.pkg      MacPorts-2.7.2-12-Monterey.pkg         MacPorts-2.7.2.tar.bz2.sha256.sig
+MacPorts-2.7.2-10.15-Catalina.pkg.asc  MacPorts-2.7.2-12-Monterey.pkg.asc     
+[liveuser@localhost Downloads]$ gpg --verify MacPorts-2.7.2-10.14-Mojave.pkg.asc MacPorts-2.7.2-10.14-Mojave.pkg
+gpg: Signature made Wed 09 Mar 2022 01:06:52 PM UTC using DSA key ID B4AAE6CD
+gpg: Good signature from "Joshua Root <jmr@macports.org>"
+gpg:                 aka "Joshua Root <josh+pgp@root.id.au>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: C403 7936 5723 6DCF 2E58  0C02 01FF 673F B4AA E6CD
+[liveuser@localhost Downloads]$ gpg --verify MacPorts-2.7.2-10.15-Catalina.pkg.asc MacPorts-2.7.2-10.15-Catalina.pkg
+gpg: Signature made Wed 09 Mar 2022 01:07:14 PM UTC using DSA key ID B4AAE6CD
+gpg: Good signature from "Joshua Root <jmr@macports.org>"
+gpg:                 aka "Joshua Root <josh+pgp@root.id.au>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: C403 7936 5723 6DCF 2E58  0C02 01FF 673F B4AA E6CD
+[liveuser@localhost Downloads]$ gpg --verify MacPorts-2.7.2-11-BigSur.pkg.asc MacPorts-2.7.2-11-BigSur.pkg
+gpg: Signature made Wed 09 Mar 2022 01:07:37 PM UTC using DSA key ID B4AAE6CD
+gpg: Good signature from "Joshua Root <jmr@macports.org>"
+gpg:                 aka "Joshua Root <josh+pgp@root.id.au>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: C403 7936 5723 6DCF 2E58  0C02 01FF 673F B4AA E6CD
+[liveuser@localhost Downloads]$ gpg --verify MacPorts-2.7.2-12-Monterey.pkg.asc MacPorts-2.7.2-12-Monterey.pkg
+gpg: Signature made Wed 09 Mar 2022 01:09:17 PM UTC using DSA key ID B4AAE6CD
+gpg: Good signature from "Joshua Root <jmr@macports.org>"
+gpg:                 aka "Joshua Root <josh+pgp@root.id.au>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: C403 7936 5723 6DCF 2E58  0C02 01FF 673F B4AA E6CD
+[liveuser@localhost Downloads]$ gpg --verify MacPorts-2.7.2.tar.bz2.
+MacPorts-2.7.2.tar.bz2.asc         MacPorts-2.7.2.tar.bz2.sha256.sig  
+[liveuser@localhost Downloads]$ gpg --verify MacPorts-2.7.2.tar.bz2.asc MacPorts-2.7.2.tar.bz2
+gpg: Signature made Wed 09 Mar 2022 10:37:40 AM UTC using DSA key ID B4AAE6CD
+gpg: Good signature from "Joshua Root <jmr@macports.org>"
+gpg:                 aka "Joshua Root <josh+pgp@root.id.au>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: C403 7936 5723 6DCF 2E58  0C02 01FF 673F B4AA E6CD
+[liveuser@localhost Downloads]$ gpg --verify MacPorts-2.7.2.tar.bz2.sha256.sig 
+gpg: no valid OpenPGP data found.
+gpg: the signature could not be verified.
+Please remember that the signature file (.sig or .asc)
+should be the first file given on the command line.
+[liveuser@localhost Downloads]$ 
